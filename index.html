@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Add a gray background color with some padding */
+body {
+  font-family: Arial;
+  padding: 20px;
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  background: white;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #FF4500;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+   background-color: white;
+   padding: 20px;
+   margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #FFA500;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h2>mikado.fun</h2>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>IMOOD.COM Introduction</h2>
+      <h5>My favorite ancient website, 10.01.2021</h5>
+      <img src="https://www.imood.com/images/imood-logo.gif?1632093434" alt="Imood.com" width="400"height="200">
+      <a href="https://imood.com" target="_blank">Imood.com</a>
+      <p>I found a website that is actualy really cool. You can make an account and set a mood. There are over 100 moods and 30+ faces. Make a profile, set a picture and say about yourself. Now you can have a neat profile!</p>
+    </div>
+    <div class="card">
+      <h2>New year, new me</h2>
+      <h5>My goals for this year, 10.01.2021</h5>
+      <img src="https://cdn.avopix.com/photos/detail/d_32225_silhouette-photo-of-a-man-standing-on-the-edge-of.jpeg" alt="Hah" width="400" height="200">
+      <p>New goals</p>
+      <p>So you know the saying "New year, new me". I dont really care much about it but I want to set some goals in life.
+      New goals: Learn HTML, get a Macbook Pro, get a domain for this website and supporter for neocities, learn more for school and organize my life.</p>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>Who is this random dude on the internet?</h2>
+      <p>Hi I am Mikado. I like coding, making websites and basketball. You can contact me on Telegram to give me ideas for the website.</p>
+        <a href="https://t.me/youikii" target="_blank">Telegram</a>
+        <a href="https://t.me/htmlprogramminggroup" target="_blank">HTML</a>
+    </div>
+    <div class="card">
+      <h2>Quick blog</h2>
+      <p>Coding now in HTML.</p>
+    </div>
+    
+    <div class="card">
+      <h2>Links</h2>
+      <a href="https://riuki.neocities.org/learnhtml.html" target="_blank">Learn HTML</a>
+      <a href="https://t.me/htmlprogramminggroup" target="_blank">HTML</a>
+    </div>
+    
+<div class="footer">
+  <img src="https://c.tenor.com/1Iu68eQzxQIAAAAC/garfield-dancing.gif" alt="Garfield" width="300" height="200">
+  <h2>Made with love and stackoverflow.com (not sponsored)</h2>
+</div>
+
+<title>Mikado's Blog</title>
+
+</body>
+</html>
