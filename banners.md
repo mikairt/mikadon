@@ -3,3 +3,4 @@
 ![descărcare](https://user-images.githubusercontent.com/73343884/150633838-631914e5-fe90-4961-8ea2-6754c6d48c23.png)
 ![aGjyXwz_700b](https://user-images.githubusercontent.com/73343884/150633839-69ee8610-768c-4ea5-b914-c1cbf567c9f8.png)
 ![descărcare](https://user-images.githubusercontent.com/73343884/150634645-0b19770b-1752-4ef7-85f3-ebf145d2cf6c.png)
+![ezgif-2-4d88705c15](https://user-images.githubusercontent.com/73343884/150635129-6d2858bd-ce92-4bee-860e-c5221f1b9a36.gif)
