@@ -4,3 +4,5 @@
 ![aGjyXwz_700b](https://user-images.githubusercontent.com/73343884/150633839-69ee8610-768c-4ea5-b914-c1cbf567c9f8.png)
 ![descărcare](https://user-images.githubusercontent.com/73343884/150634645-0b19770b-1752-4ef7-85f3-ebf145d2cf6c.png)
 ![ezgif-2-4d88705c15](https://user-images.githubusercontent.com/73343884/150635129-6d2858bd-ce92-4bee-860e-c5221f1b9a36.gif)
+![ezgif-2-4d88705c15](https://user-images.githubusercontent.com/73343884/150635595-827a850c-4c09-4fe7-9d7c-ce9bd6364dad.gif)
+![ezgif-2-b32cc0d68b](https://user-images.githubusercontent.com/73343884/150635597-1b659fd8-41e7-47bb-bd28-5d2119fd706e.gif)
