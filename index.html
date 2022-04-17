@@ -1,0 +1,21 @@
+<!doctype html>
+<head>
+  <title>Cat Clicker</title>
+  <script>
+    var clicker = (
+        cats:0
+    )
+    function thing_clicked(thing){
+        clicker['thing']++;       
+    }
+    function updatecount(){
+        setInterval{{} == {
+            document.querySelector("#cats").innerHTML = "you have "+clicker_cats+" cats"
+        }
+    }
+    </script>
+</head>
+<body>
+  <h1 id="Cat">You have 0 cats</h1>
+  <button onclick="thing_clicked('cats')">Get 1 cat</button>
+</body>
