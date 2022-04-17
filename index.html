@@ -35,23 +35,12 @@
 
 <body>
 
-    <h1>Welcome to the clicker game</h1>
 
-    <p>Click the button to get a higher score!</p>
+    <p>Click the button </p>
 
     <p id="scoreText">Score: 0</p>
 
     <button id="score">Click me!</button>
-
-    <h2>Store</h2>
-    <p>Clicker: 10 clicks</p>
-    <img id="buy" src="cursor-23231_640.png" width=50px>
-    <p id="clicker">x1</p>
-
-    <p>Auto Clicker: 1000 clicks</p>
-    <img id="buy-auto-clicker" src="cursor-154478_640.png" width=50px>
-    <p id="auto-clickers">x0</p>
-
 
     <script>
 
@@ -64,22 +53,7 @@
             document.getElementById("scoreText").innerText = "Score: " + score;
         });
 
-        document.getElementById("buy").addEventListener("click", function () {
-            if (score >= 10) {
-                clickers = clickers + 1;
-                score = score - 10;
-                document.getElementById("clicker").innerText = "x" + clickers;
-                document.getElementById("scoreText").innerText = "Score: " + score;
-            }
-        });
-
-        document.getElementById("buy-auto-clicker").addEventListener("click", function () {
-            if (score >= 1000) {
-                autoClickers = autoClickers + 1;
-                score = score - 1000;
-                document.getElementById("scoreText").innerText = "Score: " + score;
-                document.getElementById("auto-clickers").innerText = "x" + autoClickers;
-
+  
                 setInterval(function () {
                     score = score + clickers;
                     document.getElementById("scoreText").innerText = "Score: " + score;
