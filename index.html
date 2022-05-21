@@ -1,118 +1,13 @@
-<html>
+what?
 
-<head>
-    <title>just click the button</title>
-    <style>
-        body {
-            background-color: #ccc;
-            text-align: center;
-        }
+a random website i write stuff on
 
-        h1 {
-            color: orange;
-        }
+who?
 
-        h2 {
-            color: black;
-        }
+im mikado. i like computers and mechanical keyboards.
 
-        p {
-            color: black;
-            font-size: 1.2em;
-        }
+why?
 
-        img {
-            padding: 20px;
-            border: 3px solid grey;
-            border-radius: 10px;
-        }
-
-        img:hover {
-            border: 3px solid maroon;
-        }
-        
-        #Log
-{
-	position:fixed;
-	left:0px;
-	bottom:20px;
-	margin:16px;
-	padding:6px;
-	font-weight:bold;
-	font-size:12px;
-	color:#666;
-	background:#fff;
-	background:rgba(255,255,255,0.75);
-	border-radius:8px;
-	line-height:125%;
-	width:250px;
-	height:300px;
-	overflow-y:auto;
-	z-index:100;
-}
-#updateLog b {color:#000;}
-        
-    </style>
-</head>
-
-<body>
-
-
-    <p>Click the button </p>
-
-    <p id="scoreText">Clicks: 0</p>
-
-    <button id="score">Click me!</button>
-    
-    <p>imagine reaching 100.000 clicks...right?
-    
-    <a href="https://mikado.fun/about">About</a>
-        
-    <div id="Log">
-<b>18/04/2022</b><br>
--just made the game.
-
-</div>
-
-    <script>
-
-        let score = 0;
-        let clickers = 1;
-        let autoClickers = 0;
-
-         document.getElementById("score").addEventListener("click", function () {
-            score = score + clickers;
-            document.getElementById("scoreText").innerText = "Clicks: " + score;
-        });
-
-        document.getElementById("buy").addEventListener("click", function () {
-            if (score >= 10) {
-                clickers = clickers + 1;
-                score = score - 10;
-                document.getElementById("clicker").innerText = "x" + clickers;
-                document.getElementById("scoreText").innerText = "Score: " + score;
-            }
-        });
-
-        document.getElementById("buy-auto-clicker").addEventListener("click", function () {
-            if (score >= 1000) {
-                autoClickers = autoClickers + 1;
-                score = score - 1000;
-                document.getElementById("scoreText").innerText = "Score: " + score;
-                document.getElementById("auto-clickers").innerText = "x" + autoClickers;
-
-                setInterval(function () {
-                    score = score + clickers;
-                    document.getElementById("scoreText").innerText = "Score: " + score;
-                }, 1000);
-            }
-        });
-        
-    </script>
-
-
-</body>
-
-</html>
+to cure my boredom
 
 
