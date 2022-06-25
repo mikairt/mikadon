@@ -16,8 +16,7 @@ body {
 .header {
   padding: 30px;
   font-size: 40px;
-  text-align: center;
-  background: white;
+  text-align: left;
 }
 
 .leftcolumn {   
@@ -29,12 +28,6 @@ body {
   float: left;
   width: 25%;
   padding-left: 20px;
-}
-
-.fakeimg {
-  background-color: #aaa;
-  width: 100%;
-  padding: 20px;
 }
 
 .card {
@@ -50,11 +43,13 @@ body {
 }
 
 .footer {
-  padding: 20px;
-  text-align: center;
-  background: #ddd;
-  margin-top: 20px;
-}
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #A9A9A9;
+   color: white;
+   text-align: center;
 
 @media screen and (max-width: 800px) {
   .leftcolumn, .rightcolumn {   
@@ -67,47 +62,28 @@ body {
 <body>
 
 <div class="header">
-  <h2>Blog Name</h2>
+  <h2>mikado.fun</h2>
 </div>
 
 <div class="row">
   <div class="leftcolumn">
     <div class="card">
-      <h2>TITLE HEADING</h2>
-      <h5>Title description, Dec 7, 2017</h5>
-      <div class="fakeimg" style="height:200px;">Image</div>
-      <p>Some text..</p>
-      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-    </div>
-    <div class="card">
-      <h2>TITLE HEADING</h2>
-      <h5>Title description, Sep 2, 2017</h5>
-      <div class="fakeimg" style="height:200px;">Image</div>
-      <p>Some text..</p>
-      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-    </div>
+      <h2>Just some random stuff</h2>
   </div>
   <div class="rightcolumn">
     <div class="card">
       <h2>About Me</h2>
-      <div class="fakeimg" style="height:100px;">Image</div>
-      <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+      <p>i like coding and other stuff.</p>
     </div>
     <div class="card">
-      <h3>Popular Post</h3>
-      <div class="fakeimg">Image</div><br>
-      <div class="fakeimg">Image</div><br>
-      <div class="fakeimg">Image</div>
-    </div>
-    <div class="card">
-      <h3>Follow Me</h3>
-      <p>Some text..</p>
+      <h3>Contact</h3>
+      <p>pilwi#9697</p>
     </div>
   </div>
 </div>
 
 <div class="footer">
-  <h2>Footer</h2>
+  <h2>with <3 by mikado</h2>
 </div>
 
 </body>
