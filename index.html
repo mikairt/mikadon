@@ -1,14 +1,70 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>mikado's den :3</title>
-    <style type="text/css">* {cursor: url(https://ani.cursors-4u.net/nature/nat-11/nat1041.ani), url(https://ani.cursors-4u.net/nature/nat-11/nat1036.png), auto !important;}</style><a href="https://www.cursors-4u.com/cursor/2013/02/16/happy-cute-box-dog.html" target="_blank" title="Happy Cute Box Dog"><img src="https://cur.cursors-4u.net/cursor.png" border="0" alt="Happy Cute Box Dog" style="position:absolute; top: 0px; right: 0px;" /></a>
-<p>I love the internet and wanted to be a part of it. This website is my part of the internet so i hope you enjoy it! I made this "Thoughts" website. to write my thoughts and express my self. I wont make this website fancy. Just a plain basic HTML web page. You can also expect a lot of pages. Some of the images or gifs are not mine.</p>
-  <a href="https://ahhhhhhhhhhhhh.123guestbook.com/">Guestbook</a> <a href="https://mikado.fun/updates">Site Updates</a> <a href="https://mikado.fun/aboutme">About Me</a> <a href="https://mikado.fun/thoughts">Thoughts</a> <a href="https://mikado.fun/links">Links</a>
-  <img src="https://c.tenor.com/DzygLfmEA-oAAAAi/kirby-dance.gif" alt="HEH">
- <audio controls>
-  <source src="https://files.catbox.moe/1u6lto.mp3" type="audio/mpeg">
-</audio>
+<body>
+    <div class="top-bar">
+        <h1>
+            My Forum
+        </h1>
+    </div>
+    <div class="main">
+        <ol>
+        </ol>
+    </div>
+    <script src="data.js"></script>
+    <script>
+        console.log(threads);
+        var container = document.querySelector('ol');
+        for (let thread of threads) {
+            var html = `
+            <li class="row">
+                <a href="/thread.html?${thread.id}">
+                    <h4 class="title">
+                        ${thread.title}
+                    </h4>
+                    <div class="bottom">
+                        <p class="timestamp">
+                            ${new Date(thread.date).toLocaleString()}
+                        </p>
+                        <p class="comment-count">
+                            ${thread.comments.length} comments
+                        </p>
+                    </div>
+                </a>
+            </li>
+            `
+            container.insertAdjacentHTML('beforeend', html);
+        }
+    </script>
+    <style>
+        body {
+            margin: 10px 60px;
+        }
+        a {
+            text-decoration: none;
+            color: black;
+        }
+        h1, h4, ol {
+            margin: 0;
+        }
+        p {
+            margin: 5px 0;
+        }
+        .top-bar {
+            background-color: skyblue;
+            padding: 0 40px;
+        }
+        .main {
+            background-color: #F6F6EF;
+            padding: 10px 15px;
+        }
+        .row {
+            padding: 5px 0;
+        }
+        .bottom {
+            display: flex;
+            color: grey;
+            font-size: 12px;
+        }
+        .timestamp {
+            padding-right: 10px;
+        }
+    </style>
 </body>
-</html>
-
